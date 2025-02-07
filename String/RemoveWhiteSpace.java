@@ -1,10 +1,10 @@
 public class RemoveWhiteSpace {
     public static void main(String[] args) {
         String str="  J  a  v  a  ";
-        String result=RemoveWhiteSpace(str);
+        String result=RemoveWhiteSpace1(str);
         System.out.println(result);
     }
-    public static String RemoveWhiteSpace(String str)
+    public static String RemoveWhiteSpace1(String str)
     {
     return str.replaceAll("\\s+","");
     }
