@@ -10,5 +10,6 @@ public class DiagonalPattern {
             }
             System.out.println("*");
         }
+        
     }
 }
